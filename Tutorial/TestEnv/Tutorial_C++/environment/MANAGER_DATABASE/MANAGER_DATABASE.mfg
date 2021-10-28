@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manage-config-options version="7">
+  <config>
+    <key>WHITEBOX</key>
+    <value>YES</value>
+    <key>COVERAGE_TYPE</key>
+    <value>STATEMENT+MCDC</value>
+  </config>
+  <search-directory type="TESTABLE_SOURCE_DIR">C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\SourceCode\cpp</search-directory>
+</manage-config-options>

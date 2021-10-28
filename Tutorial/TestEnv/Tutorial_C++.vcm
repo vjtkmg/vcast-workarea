@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="31">
+  <config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1635411711</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="MANAGER_DATABASE" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>Tutorial_C++/build/1883257328</original-environment-directory>
+    </config>
+  </environment>
+  <group name="Group">
+    <environment name="MANAGER_DATABASE"/>
+  </group>
+  <compiler>
+    <compiler>
+      <name>VectorCAST_MinGW_C++</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>BUILTIN_MINGW_63_CPP</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="TestSuite">
+      <group name="Group"/>
+    </testsuite>
+  </compiler>
+</project>

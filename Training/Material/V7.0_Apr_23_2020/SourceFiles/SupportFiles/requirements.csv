@@ -1,0 +1,34 @@
+Key, ID, Module, Title, Description
+FR11, FR11, Manager, "Number of tables", "The system will support 6 tables."
+FR12, FR12, Manager, "Number of seats per table", "The system will support 4 seats per table."
+FR13, FR13, Manager, "List of entrees", "The system will support the following entrees:
+
+steak
+chicken
+lobster
+pasta
+none"
+FR14, FR14, Manager, "Placing an order updates occupied status", "Placing an order updates the table's occupied status to true within the table database."
+FR15, FR15, Manager, "Placing an order updates number in party", "Placing an order updates the table's number in party within the table database."
+FR16, FR16, Manager, "Placing an order updates a seat's order", "Placing an order updates the seat's order within the table database."
+FR17, FR17, Manager, "Placing an order updates check total", "Placing an order increases the table's check total within the table database, by an amount depending on the entree ordered, according to the following schedule:
+
+Entree: Amount
+
+steak: 14.0
+chicken: 10.0
+lobster: 18.0
+pasta: 12.0
+none: 0.0"
+FR18, FR18, Manager, "Clearing a table resets occupied status", "Clearing a table updates the table's occupied status to false within the table database."
+FR19, FR19, Manager, "Clearing a table resets number in party", "Clearing a table updates the table's number in party to 0 within the table database."
+FR20, FR20, Manager, "Clearing a table resets orders for all seats", "Clearing a table clears the orders for all seats of the table within the table database."
+FR21, FR21, Manager, "Clearing a table resets check total", "Clearing a table updates the table's check total to 0.0 within the table database."
+FR22, FR22, Manager, "Obtaining check total", "The system will provide a way to obtain the check total for a given table."
+FR23, FR23, Manager, "Size of waiting list", "The system will support a waiting list of up to 10 parties."
+FR24, FR24, Manager, "Adding a party to waiting list", "The system will provide a means of adding a party to the waiting list, with the party specified by name."
+FR25, FR25, Manager, "Getting the head of the waiting list", "The system will provide a means of obtaining the name of the party at the head of the waiting list."
+FR27, FR27, Manager, "Adding free dessert", "Placing certain orders will qualify the seat for free dessert, according to the following schedule:
+
+Steak with caesar salad and a mixed drink qualifies a seat for pie.
+Lobster with green salad and wine qualifies a seat for cake."

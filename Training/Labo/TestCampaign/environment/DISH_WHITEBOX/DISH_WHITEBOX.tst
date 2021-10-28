@@ -1,0 +1,47 @@
+-- VectorCAST 21.sp3 (08/04/21)
+-- Test Case Script
+--
+-- Environment    : DISH_WHITEBOX
+-- Unit(s) Under Test: dishwasher_fsm
+--
+-- Script Features
+TEST.SCRIPT_FEATURE:C_DIRECT_ARRAY_INDEXING
+TEST.SCRIPT_FEATURE:CPP_CLASS_OBJECT_REVISION
+TEST.SCRIPT_FEATURE:MULTIPLE_UUT_SUPPORT
+TEST.SCRIPT_FEATURE:REMOVED_CL_PREFIX
+TEST.SCRIPT_FEATURE:MIXED_CASE_NAMES
+TEST.SCRIPT_FEATURE:STATIC_HEADER_FUNCS_IN_UUTS
+TEST.SCRIPT_FEATURE:VCAST_MAIN_NOT_RENAMED
+--
+
+-- Subprogram: <<INIT>>
+
+-- Test Case: POWER_ON
+TEST.SUBPROGRAM:<<INIT>>
+TEST.NEW
+TEST.NAME:POWER_ON
+TEST.VALUE:dishwasher_fsm.<<GLOBAL>>.powerOn:1
+TEST.END
+
+-- Unit: dishwasher_fsm
+
+-- Subprogram: processIdleState
+
+-- Test Case: START_WASH
+TEST.UNIT:dishwasher_fsm
+TEST.SUBPROGRAM:processIdleState
+TEST.NEW
+TEST.NAME:START_WASH
+TEST.VALUE:dishwasher_fsm.processIdleState.event:EVENT_START_WASH
+TEST.EXPECTED:dishwasher_fsm.processIdleState.return:STS_ALL_GOOD
+TEST.END
+
+-- COMPOUND TESTS
+
+TEST.SUBPROGRAM:<<COMPOUND>>
+TEST.NEW
+TEST.NAME:<<COMPOUND>>.001
+TEST.SLOT: "1", "<<INIT>>", "<<INIT>>", "1", "POWER_ON"
+TEST.SLOT: "2", "dishwasher_fsm", "processIdleState", "1", "START_WASH"
+TEST.END
+--

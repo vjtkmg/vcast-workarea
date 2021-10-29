@@ -1,0 +1,49 @@
+-- VectorCAST 21.sp3 (08/04/21)
+-- Test Case Script
+--
+-- Environment    : MANAGER_COMPOUND
+-- Unit(s) Under Test: database manager
+--
+-- Script Features
+TEST.SCRIPT_FEATURE:C_DIRECT_ARRAY_INDEXING
+TEST.SCRIPT_FEATURE:CPP_CLASS_OBJECT_REVISION
+TEST.SCRIPT_FEATURE:MULTIPLE_UUT_SUPPORT
+TEST.SCRIPT_FEATURE:REMOVED_CL_PREFIX
+TEST.SCRIPT_FEATURE:MIXED_CASE_NAMES
+TEST.SCRIPT_FEATURE:STATIC_HEADER_FUNCS_IN_UUTS
+TEST.SCRIPT_FEATURE:VCAST_MAIN_NOT_RENAMED
+--
+
+-- Subprogram: <<INIT>>
+
+-- Test Case: <<INIT>>.001
+TEST.SUBPROGRAM:<<INIT>>
+TEST.NEW
+TEST.NAME:<<INIT>>.001
+TEST.VALUE:database.<<GLOBAL>>.Table_Data[1].Is_Occupied:v_false
+TEST.VALUE:database.<<GLOBAL>>.Table_Data[1].Number_In_Party:0
+TEST.END
+
+-- Unit: manager
+
+-- Subprogram: Place_Order
+
+-- Test Case: Place_Order.001
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Place_Order
+TEST.NEW
+TEST.NAME:Place_Order.001
+TEST.COMPOUND_ONLY
+TEST.VALUE:manager.Place_Order.Table:0
+TEST.VALUE:manager.Place_Order.MyOrder.Entree:CHICKEN
+TEST.END
+
+-- COMPOUND TESTS
+
+TEST.SUBPROGRAM:<<COMPOUND>>
+TEST.NEW
+TEST.NAME:<<COMPOUND>>.001
+TEST.SLOT: "1", "<<INIT>>", "<<INIT>>", "1", "<<INIT>>.001"
+TEST.SLOT: "2", "manager", "Place_Order", "1", "Place_Order.001"
+TEST.END
+--

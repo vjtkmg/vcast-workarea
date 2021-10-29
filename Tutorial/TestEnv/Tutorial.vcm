@@ -13,8 +13,32 @@
       <original-environment-directory>Tutorial/build/4211668324</original-environment-directory>
     </config>
   </environment>
+  <environment name="MANAGER+DATABASE" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>Tutorial/build/1985028320</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MANAGER_COMPOUND" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>Tutorial/build/2576589543</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="TEMPLATE_EXAMPLE" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>Tutorial/build/2700397600</original-environment-directory>
+    </config>
+  </environment>
   <group name="Group">
     <environment name="MANAGER"/>
+    <environment name="MANAGER+DATABASE"/>
+    <environment name="MANAGER_COMPOUND"/>
+    <environment name="TEMPLATE_EXAMPLE"/>
   </group>
   <compiler>
     <compiler>

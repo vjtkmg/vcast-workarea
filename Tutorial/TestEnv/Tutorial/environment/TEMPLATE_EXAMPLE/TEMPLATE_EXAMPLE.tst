@@ -124,5 +124,5 @@ TEST.VALUE:manager.Place_Order.MyOrder.Beverage:BEER
 TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Is_Occupied:v_true
 TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Number_In_Party:1
 TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Order[1].Entree:STEAK
-TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Check_Total:14.0
+TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Check_Total:24.0
 TEST.END

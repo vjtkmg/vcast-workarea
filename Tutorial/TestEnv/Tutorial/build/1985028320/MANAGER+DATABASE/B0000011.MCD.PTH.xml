@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="TRUE" edg="Y" checksum="1157096755" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Add_Included_Dessert" parameterized="Add_Included_Dessert(struct order_type*)" canonical="" mangled="Add_Included_Dessert" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="8">
+    <listing_start>10</listing_start>
+    <listing_end>25</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+            <subconditions eval="Fxx">Row number 5 forms a pair with Row 1 for Condition #1, subcondition "a".
+         Condition a ==&gt; FALSE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:NO_ENTREE
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:CAESAR
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:MIXED_DRINK
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 5 for Condition #1, subcondition "a".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:STEAK
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:CAESAR
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:MIXED_DRINK
+</script>
+    </test_path>
+    <test_path index="3">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+            <subconditions eval="TFx">Row number 3 forms a pair with Row 1 for Condition #1, subcondition "b".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; FALSE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:STEAK
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:NO_SALAD
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:MIXED_DRINK
+</script>
+    </test_path>
+    <test_path index="4">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #1, subcondition "c".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:STEAK
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:CAESAR
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:NO_BEVERAGE
+</script>
+    </test_path>
+    <test_path index="5">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; FALSE</line>
+            <subconditions eval="Fxx">Row number 5 forms a pair with Row 1 for Condition #2, subcondition "a".
+         Condition a ==&gt; FALSE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:NO_ENTREE
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:GREEN
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:WINE
+</script>
+    </test_path>
+    <test_path index="6">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 5 for Condition #2, subcondition "a".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:LOBSTER
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:GREEN
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:WINE
+</script>
+    </test_path>
+    <test_path index="7">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; FALSE</line>
+            <subconditions eval="TFx">Row number 3 forms a pair with Row 1 for Condition #2, subcondition "b".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; FALSE
+         Condition c ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:LOBSTER
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:NO_SALAD
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:WINE
+</script>
+    </test_path>
+    <test_path index="8">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #2, subcondition "c".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; TRUE
+         Condition c ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:LOBSTER
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:GREEN
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:NO_BEVERAGE
+</script>
+    </test_path>
+  </subprogram>
+  <subprogram index="2" name="Place_Order" parameterized="Place_Order(table_index_type,seat_index_type,order_type)int" canonical="" mangled="Place_Order" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="0">
+    <listing_start>26</listing_start>
+    <listing_end>57</listing_end>
+  </subprogram>
+  <subprogram index="3" name="Clear_Table" parameterized="Clear_Table(table_index_type)int" canonical="" mangled="Clear_Table" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="2">
+    <listing_start>58</listing_start>
+    <listing_end>77</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) for (Seat &lt; 4) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #1, subcondition "a".
+         Condition a ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Clear_Table.Table:&lt;&lt;MIN&gt;&gt;
+</script>
+      <notes>      Conflict: Unable to control expression-to-expression comparison in branch 1
+</notes>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) for (Seat &lt; 4) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 2 for Condition #1, subcondition "a".
+         Condition a ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Clear_Table.Table:&lt;&lt;MIN&gt;&gt;
+</script>
+      <notes>      Conflict: Unable to control expression-to-expression comparison in branch 1
+</notes>
+    </test_path>
+  </subprogram>
+  <subprogram index="4" name="Get_Check_Total" parameterized="Get_Check_Total(table_index_type)FLOAT" canonical="" mangled="Get_Check_Total" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="0">
+    <listing_start>78</listing_start>
+    <listing_end>84</listing_end>
+  </subprogram>
+  <subprogram index="5" name="Add_Party_To_Waiting_List" parameterized="Add_Party_To_Waiting_List(char*)" canonical="" mangled="Add_Party_To_Waiting_List" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="5">
+    <listing_start>85</listing_start>
+    <listing_end>99</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #1, subcondition "a".
+         Condition a ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;malloc 1&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 2 for Condition #1, subcondition "a".
+         Condition a ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MAX&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;malloc 1&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="3">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; FALSE</line>
+            <subconditions eval="Fx">Row number 3 forms a pair with Row 1 for Condition #2, subcondition "a".
+         Condition a ==&gt; FALSE
+         Condition b ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>-- Values at different subconditions: null pointer, allocation of array of size 1
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;null&gt;&gt;
+TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+</script>
+      <notes>      Conflict: Trying to set variable manager.Add_Party_To_Waiting_List.Name 'equal to' and 'not equal to' same value in branch 2
+</notes>
+    </test_path>
+    <test_path index="4">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 3 for Condition #2, subcondition "a".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name[0]:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="5">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #2, subcondition "b".
+         Condition a ==&gt; TRUE
+         Condition b ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name[0]:\0
+TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+  </subprogram>
+  <subprogram index="6" name="Get_Next_Party_To_Be_Seated" parameterized="Get_Next_Party_To_Be_Seated()char*" canonical="" mangled="Get_Next_Party_To_Be_Seated" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="2">
+    <listing_start>100</listing_start>
+    <listing_end>107</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListIndex &gt; (9)) ==&gt; FALSE</line>
+            <subconditions>Row number 2 forms a pair with Row 1 for Condition #1, subcondition "a".
+         Condition a ==&gt; FALSE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListIndex:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListIndex &gt; (9)) ==&gt; TRUE</line>
+            <subconditions>Row number 1 forms a pair with Row 2 for Condition #1, subcondition "a".
+         Condition a ==&gt; TRUE
+</subconditions>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListIndex:&lt;&lt;MAX&gt;&gt;
+</script>
+    </test_path>
+  </subprogram>
+</basis_paths>

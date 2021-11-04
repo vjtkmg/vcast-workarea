@@ -1,0 +1,107 @@
+               #include "C:/Users/vjtkmg/Documents/GitLocal/VectorCAST/Tutorial/SourceCode/c/ctypes.h"
+               struct table_data_type Get_Table_Record(table_index_type Table);
+               void Update_Table_Record(table_index_type Table, struct table_data_type Data);
+               /* Allow 10 Parties to wait */
+               static name_type WaitingList[10];
+               static unsigned int WaitingListSize = 0;
+               static unsigned int WaitingListIndex = 0;
+               /* This function will add a free dessert to specific orders based on the 
+                  entree, salad, and beverage choice */
+               void Add_Included_Dessert(struct order_type* Order)
+               {
+1 0     ( )    Add_Included_Dessert
+1 1     ( )( ) if(
+1 1.1   ( )( ) Order->Entree == STEAK &&
+1 1.2   ( )( ) Order->Salad == CAESAR &&
+1 1.3   ( )( ) Order->Beverage == MIXED_DRINK) {
+                   Order->Dessert = PIE;
+                 } else 
+1 2     ( )( )   if(
+1 2.1   ( )( )   Order->Entree == LOBSTER &&
+1 2.2   ( )( )   Order->Salad == GREEN &&
+1 2.3   ( )( )   Order->Beverage == WINE) {
+                   Order->Dessert = CAKE;
+                 }
+               }
+               int Place_Order(table_index_type Table,
+                               seat_index_type Seat,
+                               struct order_type MyOrder)
+               {
+                 struct table_data_type Table_Data;
+2 0     ( )    Place_Order
+                 Table_Data = Get_Table_Record(Table);
+                 Table_Data.Is_Occupied = v_true;
+                 Table_Data.Number_In_Party = Table_Data.Number_In_Party + 1;
+                 Table_Data.Order[Seat] = MyOrder;
+                 /* Add a free dessert in some cases */
+                 Add_Included_Dessert(&Table_Data.Order[Seat]);
+                 switch(MyOrder.Entree)
+                   {
+2 1     ( )      case NO_ENTREE :
+                      break;
+2 2     ( )      case STEAK :
+                      Table_Data.Check_Total = Table_Data.Check_Total + 14.0 + 10;
+                      break;
+2 3     ( )      case CHICKEN :
+                      Table_Data.Check_Total = Table_Data.Check_Total + 10.0;
+                      break;
+2 4     ( )      case LOBSTER :
+                      Table_Data.Check_Total = Table_Data.Check_Total + 18.0;
+                      break;
+2 5     ( )      case PASTA :
+                      Table_Data.Check_Total = Table_Data.Check_Total + 12.0;
+                      break;
+                   }
+                 Update_Table_Record(Table, Table_Data);
+                 return 0;
+               }
+               int Clear_Table(table_index_type Table)
+               {
+                 struct table_data_type Table_Data;
+                 seat_index_type Seat;
+3 0     ( )    Clear_Table
+                 Table_Data = Get_Table_Record(Table);
+                 Table_Data.Is_Occupied = v_false;
+                 Table_Data.Number_In_Party = 1;
+3 1     ( )( ) for (Seat=0; 
+3 1.1   ( )( ) Seat < 4; Seat++){
+                     Table_Data.Order[Seat].Soup = NO_SOUP;
+                     Table_Data.Order[Seat].Salad = NO_SALAD;
+                     Table_Data.Order[Seat].Entree = NO_ENTREE;
+                     Table_Data.Order[Seat].Dessert = NO_DESSERT;
+                     Table_Data.Order[Seat].Beverage = NO_BEVERAGE;
+                  }
+                 Table_Data.Check_Total = 0;
+                 Update_Table_Record(Table, Table_Data);
+                 return 0;
+               }
+               FLOAT Get_Check_Total(table_index_type Table)
+               {
+                 struct table_data_type Table_Data;
+4 0     ( )    Get_Check_Total
+                 Table_Data = Get_Table_Record(Table);
+                 return (Table_Data.Check_Total);
+               }
+               void Add_Party_To_Waiting_List(char* Name)
+               {
+5 0     ( )    Add_Party_To_Waiting_List
+                 int i = 0;
+5 1     ( )( ) if(
+5 1.1   ( )( ) WaitingListSize > 9)
+                   WaitingListSize = 0;
+5 2     ( )( ) while(
+5 2.1   ( )( ) Name && 
+5 2.2   ( )( ) *Name) {
+                   WaitingList[WaitingListSize][i++] = *Name;
+                   Name++;
+                 }
+                 WaitingList[WaitingListSize++][i] = 0;
+               }
+               char* Get_Next_Party_To_Be_Seated(void)
+               {
+6 0     ( )    Get_Next_Party_To_Be_Seated
+6 1     ( )( ) if(
+6 1.1   ( )( ) WaitingListIndex > 9)
+                   WaitingListIndex = 0;
+                 return WaitingList[WaitingListIndex++];
+               }

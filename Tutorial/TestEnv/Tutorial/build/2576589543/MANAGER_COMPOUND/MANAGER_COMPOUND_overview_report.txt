@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+環境概要
+--------------------------------------------------------------------------------
+
+
+
+
+  環境名:                 MANAGER_COMPOUND
+  環境のステータス:            ノーマル
+  環境のバージョン:            REVISION_2021_ANON_STRUCT_CTOR_SUPPORT
+  環境ビルド種別:             フル
+  カバレッジステータス:          Statement+MC/DC (有効)
+  言語:                  C
+  コンパイラ名:              VectorCAST MinGW_C
+  ホワイトボックス:            はい
+  検索リスト:               C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\SourceCode\c  (テスト可能)
+  テスト対象ユニット:           database
+                       manager
+  スタブリスト:              なし
+  スタブなし（ソースファイル）:      なし
+

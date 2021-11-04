@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\4211668324\MANAGER\MANAGER_auto.tst
+(I) @LINE: 14
+    >>> Processing Test Case: BASIS-PATH-001
+(S) @LINE: 25
+    >>> Processed Test Case: BASIS-PATH-001
+(I) @LINE: 31
+    >>> Processing Test Case: BASIS-PATH-002
+(S) @LINE: 42
+    >>> Processed Test Case: BASIS-PATH-002
+(I) @LINE: 48
+    >>> Processing Test Case: BASIS-PATH-003
+(S) @LINE: 59
+    >>> Processed Test Case: BASIS-PATH-003
+(I) @LINE: 65
+    >>> Processing Test Case: BASIS-PATH-004
+(S) @LINE: 76
+    >>> Processed Test Case: BASIS-PATH-004
+(I) @LINE: 82
+    >>> Processing Test Case: BASIS-PATH-005
+(S) @LINE: 93
+    >>> Processed Test Case: BASIS-PATH-005
+(S) @LINE: 94
+    >>> Script processing completed
+
+

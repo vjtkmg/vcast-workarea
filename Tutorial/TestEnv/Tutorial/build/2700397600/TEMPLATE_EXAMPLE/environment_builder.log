@@ -1,0 +1,84 @@
+    Processing options file c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2700397600\CCAST_.CFG
+    Reading environment script "C:/Users/vjtkmg/Documents/GitLocal/VectorCAST/Tutorial/TestEnv/Tutorial/build/2700397600\TEMPLATE_EXAMPLE.env"
+    Initializing search list
+    Creating the Environment Directory
+    Creating Environment "TEMPLATE_EXAMPLE"
+    Unit 8 (not-stubbed): User Defined Globals
+       Parsing 
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\2_Command
+        Command Returned Exit Code: 0
+       Initializing parse data
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\3_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\4_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\5_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\6_Command
+        Command Returned Exit Code: 0
+       Generating harness code
+       Saving unit data
+    Parsing manager
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\7_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\8_Command
+        Command Returned Exit Code: 0
+    Unit 9 (stub-by-function): manager
+       Loading stored IL
+       Initializing parse data
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\9_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\10_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\11_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\12_Command
+        Command Returned Exit Code: 0
+       Generating harness code
+       Saving unit data
+    Compiling file VECTORCAST_IO
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\13_Command
+        Command Returned Exit Code: 0
+    Compiling file User Defined Globals
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\14_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\15_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\16_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\17_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 1
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\18_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 2
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\19_Command
+        Command Returned Exit Code: 0
+    Compiling file Driver
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\20_Command
+        Command Returned Exit Code: 0
+    Compiling file User Defined Package
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\21_Command
+        Command Returned Exit Code: 0
+    Setting Up Statement+MC/DC Coverage
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\22_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\23_Command
+        Command Returned Exit Code: 0
+    Instrumenting file manager
+    Compiling file manager
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\24_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\25_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 1
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\26_Command
+        Command Returned Exit Code: 0
+    Linking Instrumented Harness
+        Running Command: C:/Users/vjtkmg\.vcastProcessMonitorLogs\27_Command
+        Command Returned Exit Code: 0
+    Coverage Initialized
+    Writing VectorCAST Database Files to Disk
+    Environment built Successfully

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="7">
+  <unit index="11" coverage_type="STATEMENT_MCDC" max_mcdc_conditions="8" field_width="8">
+    <name>manager</name>
+    <configuration>
+      <empty_statements_coverable>1</empty_statements_coverable>
+      <cover_catch_as_branch>1</cover_catch_as_branch>
+      <cover_logical_operators_in_parameters>1</cover_logical_operators_in_parameters>
+      <handle_ternary_operator>1</handle_ternary_operator>
+      <cover_nested_conditional>1</cover_nested_conditional>
+      <coverage_for_included_c_files>1</coverage_for_included_c_files>
+      <coverage_for_headers>0</coverage_for_headers>
+      <instrument_by_block>0</instrument_by_block>
+      <coverage_for_declarations>1</coverage_for_declarations>
+      <basis_paths_for_constant_branches>1</basis_paths_for_constant_branches>
+      <edg_coverage_available>1</edg_coverage_available>
+      <cover_included_c_files>1</cover_included_c_files>
+      <cover_headers>0</cover_headers>
+      <preprocessed>1</preprocessed>
+      <masking_mcdc>0</masking_mcdc>
+      <cuda_mode>0</cuda_mode>
+      <coverage_for_lambdas>2</coverage_for_lambdas>
+      <pack_instr_storage>1</pack_instr_storage>
+      <global_buffer_opts>0</global_buffer_opts>
+      <coverage_unit_registration>0</coverage_unit_registration>
+    </configuration>
+    <attributes>
+      <has_empty_statements>0</has_empty_statements>
+      <has_catch_statements>0</has_catch_statements>
+      <has_logical_operators_in_parameters>0</has_logical_operators_in_parameters>
+      <has_ternary_operator>0</has_ternary_operator>
+      <has_nested_ternary_operator>0</has_nested_ternary_operator>
+      <has_constant_branch>0</has_constant_branch>
+      <number_ascii_bytes>740</number_ascii_bytes>
+      <probe_point_after_last_include>48</probe_point_after_last_include>
+      <probe_point_beginning_of_file>8</probe_point_beginning_of_file>
+      <file_timestamp>1635406898</file_timestamp>
+      <file_checksum>391113144</file_checksum>
+      <translation_unit_checksum>1157096755</translation_unit_checksum>
+    </attributes>
+    <source_files>
+      <source_file index="1" path="c:/users/vjtkmg/documents/gitlocal/vectorcast/tutorial/sourcecode/c/manager.c" crc_checksum="391113144" sha_checksum="0069de36820f09971c878159b38a0dcb34db456c" timestamp="1635406898" lis_file_path="C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\1985028320\MANAGER+DATABASE\B0000011.LIS"/>
+    </source_files>
+    <subprogram index="1">
+      <name>Add_Included_Dessert</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Add_Included_Dessert(struct order_type*)</parameterized>
+      <mangled>Add_Included_Dessert</mangled>
+      <source_function_checksum>352473157</source_function_checksum>
+      <translation_unit_function_checksum>352473157</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="1" stmt_id="0" startline="16" startcol="1" endline="16" endcol="1" tustartline="62" tustartcol="1" tuendline="62" tuendcol="1" allowed_position="3"/>
+        <line number="1" conditions="8" id="1" stmt_id="1" startline="17" startcol="3" endline="19" endcol="36" tustartline="63" tustartcol="3" tuendline="65" tuendcol="36" allowed_position="0"/>
+        <line number="2" id="1" stmt_id="5" startline="21" startcol="5" endline="21" endcol="25" tustartline="67" tustartcol="5" tuendline="67" tuendcol="25" allowed_position="2"/>
+        <line number="3" conditions="8" id="2" stmt_id="9" startline="23" startcol="10" endline="25" endcol="36" tustartline="69" tustartcol="10" tuendline="71" tuendcol="36" allowed_position="0"/>
+        <line number="4" id="2" stmt_id="13" startline="27" startcol="5" endline="27" endcol="26" tustartline="73" tustartcol="5" tuendline="73" tuendcol="26" allowed_position="2"/>
+      </lines>
+      <startline>62</startline>
+      <startcol>1</startcol>
+      <endline>75</endline>
+      <endcol>1</endcol>
+      <orig_startline>16</orig_startline>
+      <orig_endline>29</orig_endline>
+      <firstexec_startline>63</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>17</firstexec_orig_startline>
+      <open_brace_tu_line>62</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>16</open_brace_src_line>
+      <metrics>
+        <complexity>3</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>4</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>17</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>6</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="2">
+      <name>Place_Order</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Place_Order(table_index_type,seat_index_type,order_type)int</parameterized>
+      <mangled>Place_Order</mangled>
+      <source_function_checksum>1357903488</source_function_checksum>
+      <translation_unit_function_checksum>2534599228</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="2" stmt_id="0" startline="34" startcol="1" endline="34" endcol="1" tustartline="80" tustartcol="1" tuendline="80" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="3" stmt_id="2" startline="37" startcol="3" endline="37" endcol="39" tustartline="83" tustartcol="3" tuendline="83" tuendcol="39" allowed_position="2"/>
+        <line number="2" id="4" stmt_id="4" startline="39" startcol="3" endline="39" endcol="34" tustartline="85" tustartcol="3" tuendline="85" tuendcol="34" allowed_position="2"/>
+        <line number="3" id="5" stmt_id="6" startline="40" startcol="3" endline="40" endcol="62" tustartline="86" tustartcol="3" tuendline="86" tuendcol="62" allowed_position="2"/>
+        <line number="4" id="6" stmt_id="8" startline="41" startcol="3" endline="41" endcol="35" tustartline="87" tustartcol="3" tuendline="87" tuendcol="35" allowed_position="2"/>
+        <line number="5" id="7" stmt_id="10" startline="44" startcol="3" endline="44" endcol="48" tustartline="90" tustartcol="3" tuendline="90" tuendcol="48" allowed_position="2"/>
+        <line number="6" id="8" stmt_id="13" startline="46" startcol="3" endline="46" endcol="24" tustartline="92" tustartcol="3" tuendline="92" tuendcol="24" allowed_position="0"/>
+        <line number="7" conditions="1" condition_value="1" id="3" stmt_id="16" startline="48" startcol="5" endline="48" endcol="20" tustartline="94" tustartcol="5" tuendline="94" tuendcol="20" allowed_position="2"/>
+        <line number="8" id="9" stmt_id="18" startline="49" startcol="8" endline="49" endcol="13" tustartline="95" tustartcol="8" tuendline="95" tuendcol="13" allowed_position="2"/>
+        <line number="9" conditions="1" condition_value="1" id="4" stmt_id="19" startline="50" startcol="5" endline="50" endcol="16" tustartline="96" tustartcol="5" tuendline="96" tuendcol="16" allowed_position="2"/>
+        <line number="10" id="10" stmt_id="21" startline="51" startcol="8" endline="51" endcol="67" tustartline="97" tustartcol="8" tuendline="97" tuendcol="67" is_macro="1" allowed_position="2"/>
+        <line number="11" id="11" stmt_id="23" startline="52" startcol="8" endline="52" endcol="13" tustartline="98" tustartcol="8" tuendline="98" tuendcol="13" allowed_position="2"/>
+        <line number="12" conditions="1" condition_value="1" id="5" stmt_id="24" startline="53" startcol="5" endline="53" endcol="18" tustartline="99" tustartcol="5" tuendline="99" tuendcol="18" allowed_position="2"/>
+        <line number="13" id="12" stmt_id="26" startline="54" startcol="8" endline="54" endcol="62" tustartline="100" tustartcol="8" tuendline="100" tuendcol="62" is_macro="1" allowed_position="2"/>
+        <line number="14" id="13" stmt_id="28" startline="55" startcol="8" endline="55" endcol="13" tustartline="101" tustartcol="8" tuendline="101" tuendcol="13" allowed_position="2"/>
+        <line number="15" conditions="1" condition_value="1" id="6" stmt_id="29" startline="56" startcol="5" endline="56" endcol="18" tustartline="102" tustartcol="5" tuendline="102" tuendcol="18" allowed_position="2"/>
+        <line number="16" id="14" stmt_id="31" startline="57" startcol="8" endline="57" endcol="62" tustartline="103" tustartcol="8" tuendline="103" tuendcol="62" is_macro="1" allowed_position="2"/>
+        <line number="17" id="15" stmt_id="33" startline="58" startcol="8" endline="58" endcol="13" tustartline="104" tustartcol="8" tuendline="104" tuendcol="13" allowed_position="2"/>
+        <line number="18" conditions="1" condition_value="1" id="7" stmt_id="34" startline="59" startcol="5" endline="59" endcol="16" tustartline="105" tustartcol="5" tuendline="105" tuendcol="16" allowed_position="2"/>
+        <line number="19" id="16" stmt_id="36" startline="60" startcol="8" endline="60" endcol="62" tustartline="106" tustartcol="8" tuendline="106" tuendcol="62" is_macro="1" allowed_position="2"/>
+        <line number="20" id="17" stmt_id="38" startline="61" startcol="8" endline="61" endcol="13" tustartline="107" tustartcol="8" tuendline="107" tuendcol="13" allowed_position="2"/>
+        <line number="21" id="18" stmt_id="42" startline="64" startcol="3" endline="64" endcol="41" tustartline="110" tustartcol="3" tuendline="110" tuendcol="41" allowed_position="2"/>
+        <line number="22" id="19" stmt_id="44" startline="65" startcol="3" endline="65" endcol="11" tustartline="111" tustartcol="3" tuendline="111" tuendcol="11" allowed_position="0"/>
+      </lines>
+      <startline>80</startline>
+      <startcol>1</startcol>
+      <endline>112</endline>
+      <endcol>1</endcol>
+      <orig_startline>34</orig_startline>
+      <orig_endline>66</orig_endline>
+      <firstexec_startline>83</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>37</firstexec_orig_startline>
+      <open_brace_tu_line>80</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>34</open_brace_src_line>
+      <metrics>
+        <complexity>5</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>22</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>6</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="3">
+      <name>Clear_Table</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Clear_Table(table_index_type)int</parameterized>
+      <mangled>Clear_Table</mangled>
+      <source_function_checksum>3394183143</source_function_checksum>
+      <translation_unit_function_checksum>108473859</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="8" stmt_id="0" startline="69" startcol="1" endline="69" endcol="1" tustartline="115" tustartcol="1" tuendline="115" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="20" stmt_id="2" startline="72" startcol="3" endline="72" endcol="39" tustartline="118" tustartcol="3" tuendline="118" tuendcol="39" allowed_position="2"/>
+        <line number="2" id="21" stmt_id="4" startline="73" startcol="3" endline="73" endcol="35" tustartline="119" tustartcol="3" tuendline="119" tuendcol="35" allowed_position="2"/>
+        <line number="3" id="22" stmt_id="6" startline="74" startcol="3" endline="74" endcol="33" tustartline="120" tustartcol="3" tuendline="120" tuendcol="33" allowed_position="2"/>
+        <line number="4" conditions="4" id="1" stmt_id="9" startline="76" startcol="3" endline="76" endcol="32" tustartline="122" tustartcol="3" tuendline="122" tuendcol="32" is_macro="1" allowed_position="0"/>
+        <line number="5" id="23" stmt_id="13" startline="77" startcol="7" endline="77" endcol="44" tustartline="123" tustartcol="7" tuendline="123" tuendcol="44" allowed_position="2"/>
+        <line number="6" id="24" stmt_id="15" startline="78" startcol="7" endline="78" endcol="46" tustartline="124" tustartcol="7" tuendline="124" tuendcol="46" allowed_position="2"/>
+        <line number="7" id="25" stmt_id="17" startline="79" startcol="7" endline="79" endcol="48" tustartline="125" tustartcol="7" tuendline="125" tuendcol="48" allowed_position="2"/>
+        <line number="8" id="26" stmt_id="19" startline="80" startcol="7" endline="80" endcol="50" tustartline="126" tustartcol="7" tuendline="126" tuendcol="50" allowed_position="2"/>
+        <line number="9" id="27" stmt_id="21" startline="81" startcol="7" endline="81" endcol="52" tustartline="127" tustartcol="7" tuendline="127" tuendcol="52" allowed_position="2"/>
+        <line number="10" id="28" stmt_id="23" startline="84" startcol="3" endline="84" endcol="29" tustartline="130" tustartcol="3" tuendline="130" tuendcol="29" allowed_position="2"/>
+        <line number="11" id="29" stmt_id="25" startline="86" startcol="3" endline="86" endcol="41" tustartline="132" tustartcol="3" tuendline="132" tuendcol="41" allowed_position="2"/>
+        <line number="12" id="30" stmt_id="27" startline="87" startcol="3" endline="87" endcol="11" tustartline="133" tustartcol="3" tuendline="133" tuendcol="11" allowed_position="0"/>
+      </lines>
+      <startline>115</startline>
+      <startcol>1</startcol>
+      <endline>134</endline>
+      <endcol>1</endcol>
+      <orig_startline>69</orig_startline>
+      <orig_endline>88</orig_endline>
+      <firstexec_startline>118</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>72</firstexec_orig_startline>
+      <open_brace_tu_line>115</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>69</open_brace_src_line>
+      <metrics>
+        <complexity>2</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>12</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>5</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="4">
+      <name>Get_Check_Total</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Get_Check_Total(table_index_type)FLOAT</parameterized>
+      <mangled>Get_Check_Total</mangled>
+      <source_function_checksum>1311497662</source_function_checksum>
+      <translation_unit_function_checksum>1311497662</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="9" stmt_id="0" startline="91" startcol="1" endline="91" endcol="1" tustartline="137" tustartcol="1" tuendline="137" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="31" stmt_id="2" startline="93" startcol="3" endline="93" endcol="39" tustartline="139" tustartcol="3" tuendline="139" tuendcol="39" allowed_position="2"/>
+        <line number="2" id="32" stmt_id="4" startline="94" startcol="3" endline="94" endcol="34" tustartline="140" tustartcol="3" tuendline="140" tuendcol="34" allowed_position="0"/>
+      </lines>
+      <startline>137</startline>
+      <startcol>1</startcol>
+      <endline>141</endline>
+      <endcol>1</endcol>
+      <orig_startline>91</orig_startline>
+      <orig_endline>95</orig_endline>
+      <firstexec_startline>139</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>93</firstexec_orig_startline>
+      <open_brace_tu_line>137</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>91</open_brace_src_line>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>2</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="5">
+      <name>Add_Party_To_Waiting_List</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Add_Party_To_Waiting_List(char*)</parameterized>
+      <mangled>Add_Party_To_Waiting_List</mangled>
+      <source_function_checksum>93188612</source_function_checksum>
+      <translation_unit_function_checksum>93188612</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="10" stmt_id="0" startline="98" startcol="1" endline="98" endcol="1" tustartline="144" tustartcol="1" tuendline="144" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="33" stmt_id="1" startline="99" startcol="3" endline="99" endcol="12" tustartline="145" tustartcol="3" tuendline="145" tuendcol="12" allowed_position="2"/>
+        <line number="2" conditions="4" id="2" stmt_id="3" startline="100" startcol="3" endline="100" endcol="25" tustartline="146" tustartcol="3" tuendline="146" tuendcol="25" allowed_position="0"/>
+        <line number="3" id="34" stmt_id="7" startline="101" startcol="5" endline="101" endcol="24" tustartline="147" tustartcol="5" tuendline="147" tuendcol="24" allowed_position="2"/>
+        <line number="4" conditions="6" id="1" stmt_id="10" startline="103" startcol="3" endline="103" endcol="22" tustartline="149" tustartcol="3" tuendline="149" tuendcol="22" allowed_position="0"/>
+        <line number="5" id="35" stmt_id="14" startline="104" startcol="5" endline="104" endcol="46" tustartline="150" tustartcol="5" tuendline="150" tuendcol="46" allowed_position="2"/>
+        <line number="6" id="36" stmt_id="16" startline="105" startcol="5" endline="105" endcol="11" tustartline="151" tustartcol="5" tuendline="151" tuendcol="11" allowed_position="2"/>
+        <line number="7" id="37" stmt_id="18" startline="107" startcol="3" endline="107" endcol="40" tustartline="153" tustartcol="3" tuendline="153" tuendcol="40" allowed_position="2"/>
+      </lines>
+      <startline>144</startline>
+      <startcol>1</startcol>
+      <endline>154</endline>
+      <endcol>1</endcol>
+      <orig_startline>98</orig_startline>
+      <orig_endline>108</orig_endline>
+      <firstexec_startline>146</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>100</firstexec_orig_startline>
+      <open_brace_tu_line>144</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>98</open_brace_src_line>
+      <metrics>
+        <complexity>3</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>7</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>11</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>3</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="6">
+      <name>Get_Next_Party_To_Be_Seated</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Get_Next_Party_To_Be_Seated()char*</parameterized>
+      <mangled>Get_Next_Party_To_Be_Seated</mangled>
+      <source_function_checksum>2075500513</source_function_checksum>
+      <translation_unit_function_checksum>2075500513</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="11" stmt_id="0" startline="111" startcol="1" endline="111" endcol="1" tustartline="157" tustartcol="1" tuendline="157" tuendcol="1" allowed_position="3"/>
+        <line number="1" conditions="4" id="3" stmt_id="1" startline="112" startcol="3" endline="112" endcol="26" tustartline="158" tustartcol="3" tuendline="158" tuendcol="26" allowed_position="0"/>
+        <line number="2" id="38" stmt_id="5" startline="113" startcol="5" endline="113" endcol="25" tustartline="159" tustartcol="5" tuendline="159" tuendcol="25" allowed_position="2"/>
+        <line number="3" id="39" stmt_id="7" startline="114" startcol="3" endline="114" endcol="41" tustartline="160" tustartcol="3" tuendline="160" tuendcol="41" allowed_position="0"/>
+      </lines>
+      <startline>157</startline>
+      <startcol>1</startcol>
+      <endline>161</endline>
+      <endcol>1</endcol>
+      <orig_startline>111</orig_startline>
+      <orig_endline>115</orig_endline>
+      <firstexec_startline>158</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>112</firstexec_orig_startline>
+      <open_brace_tu_line>157</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>111</open_brace_src_line>
+      <metrics>
+        <complexity>2</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>3</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>5</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

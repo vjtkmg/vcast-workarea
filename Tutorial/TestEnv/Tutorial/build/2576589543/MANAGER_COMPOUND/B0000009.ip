@@ -1,0 +1,4 @@
+1,0,B    {
+1,1,S    return (Table_Data[Table]);
+2,0,B    {
+2,1,S    Table_Data[Table] = Data;

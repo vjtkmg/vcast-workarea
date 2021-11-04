@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit_mcdc_tables index="11" mcdversion="4" pruneEquiv="1">
+  <sub idx="1">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>14</ln>
+      <act>(Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)</act>
+      <ops>
+        <op subc="a">
+          <sim>Order-&gt;Entree == (STEAK)</sim>
+          <start_line>17</start_line>
+          <start_col>6</start_col>
+          <end_line>17</end_line>
+          <end_col>27</end_col>
+        </op>
+        <op subc="b">
+          <sim>Order-&gt;Salad == (CAESAR)</sim>
+          <start_line>18</start_line>
+          <start_col>6</start_col>
+          <end_line>18</end_line>
+          <end_col>27</end_col>
+        </op>
+        <op subc="c">
+          <sim>Order-&gt;Beverage == (MIXED_DRINK)</sim>
+          <start_line>19</start_line>
+          <start_col>6</start_col>
+          <end_line>19</end_line>
+          <end_col>35</end_col>
+        </op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; c)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+    </con>
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>19</ln>
+      <act>(Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)</act>
+      <ops>
+        <op subc="a">
+          <sim>Order-&gt;Entree == (LOBSTER)</sim>
+          <start_line>23</start_line>
+          <start_col>13</start_col>
+          <end_line>23</end_line>
+          <end_col>36</end_col>
+        </op>
+        <op subc="b">
+          <sim>Order-&gt;Salad == (GREEN)</sim>
+          <start_line>24</start_line>
+          <start_col>13</start_col>
+          <end_line>24</end_line>
+          <end_col>33</end_col>
+        </op>
+        <op subc="c">
+          <sim>Order-&gt;Beverage == (WINE)</sim>
+          <start_line>25</start_line>
+          <start_col>13</start_col>
+          <end_line>25</end_line>
+          <end_col>35</end_col>
+        </op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; c)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+    </con>
+  </sub>
+  <sub idx="3">
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>67</ln>
+      <act>Seat &lt; 4</act>
+      <ops>
+        <op subc="a">
+          <sim>Seat &lt; 4</sim>
+          <start_line>76</start_line>
+          <start_col>16</start_col>
+          <end_line>76</end_line>
+          <end_col>23</end_col>
+        </op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="5">
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>90</ln>
+      <act>WaitingListSize &gt; (9)</act>
+      <ops>
+        <op subc="a">
+          <sim>WaitingListSize &gt; (9)</sim>
+          <start_line>100</start_line>
+          <start_col>6</start_col>
+          <end_line>100</end_line>
+          <end_col>24</end_col>
+        </op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>93</ln>
+      <act>Name &amp;&amp; *Name</act>
+      <ops>
+        <op subc="a">
+          <sim>Name</sim>
+          <start_line>103</start_line>
+          <start_col>9</start_col>
+          <end_line>103</end_line>
+          <end_col>12</end_col>
+        </op>
+        <op subc="b">
+          <sim>*Name</sim>
+          <start_line>103</start_line>
+          <start_col>17</start_col>
+          <end_line>103</end_line>
+          <end_col>21</end_col>
+        </op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+  </sub>
+  <sub idx="6">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>104</ln>
+      <act>WaitingListIndex &gt; (9)</act>
+      <ops>
+        <op subc="a">
+          <sim>WaitingListIndex &gt; (9)</sim>
+          <start_line>112</start_line>
+          <start_col>6</start_col>
+          <end_line>112</end_line>
+          <end_col>25</end_col>
+        </op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+</unit_mcdc_tables>

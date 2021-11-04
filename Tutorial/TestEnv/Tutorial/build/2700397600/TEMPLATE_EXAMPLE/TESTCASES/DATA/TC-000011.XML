@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase xml_testcase_version="2.0">
+  <name>CSV_Chicken</name>
+  <unique_id>11</unique_id>
+  <unit>9</unit>
+  <subprogram>2</subprogram>
+  <is_code_based_test>FALSE</is_code_based_test>
+  <input_exists>TRUE</input_exists>
+  <expected_exists>FALSE</expected_exists>
+  <results_exists>TRUE</results_exists>
+  <creation>
+    <month>10</month>
+    <day>29</day>
+    <year>2021</year>
+    <hour>1</hour>
+    <minute>55</minute>
+    <seconds>47</seconds>
+    <ampm>PM</ampm>
+  </creation>
+  <execution_start>
+    <month>10</month>
+    <day>29</day>
+    <year>2021</year>
+    <hour>1</hour>
+    <minute>55</minute>
+    <seconds>55</seconds>
+    <ampm>PM</ampm>
+  </execution_start>
+  <epoch_time_execution_started>1635483355</epoch_time_execution_started>
+  <execution_end>
+    <month>10</month>
+    <day>29</day>
+    <year>2021</year>
+    <hour>1</hour>
+    <minute>55</minute>
+    <seconds>55</seconds>
+    <ampm>PM</ampm>
+  </execution_end>
+  <epoch_time_execution_ended>1635483355</epoch_time_execution_ended>
+  <results>
+    <pass>4</pass>
+    <total>4</total>
+  </results>
+  <user_code_needs_compile>FALSE</user_code_needs_compile>
+  <user_code_needs_instr_compile>FALSE</user_code_needs_instr_compile>
+  <for_compound_only>FALSE</for_compound_only>
+  <is_specialized>FALSE</is_specialized>
+  <covered_by_analysis>FALSE</covered_by_analysis>
+  <automatic_initialization>FALSE</automatic_initialization>
+  <automatic_finalization>FALSE</automatic_finalization>
+  <is_sorted>TRUE</is_sorted>
+  <testcase_status>TCR_STATUS_OK</testcase_status>
+  <execution_status>TC_EXECUTION_PASSED</execution_status>
+  <harness_execution_status>EXEC_SUCCESS_PASS</harness_execution_status>
+  <notes>
+    <notes>-----------------------------------------------------------------------</notes>
+    <notes>Row 2 from C:/Users/vjtkmg/Documents/GitLocal/VectorCAST/Tutorial/SourceCode/c/csv_test_data.csv</notes>
+    <notes>Column    2: TEST.VALUE:manager.Place_Order.Table</notes>
+    <notes>Column    3: TEST.VALUE:manager.Place_Order.Seat</notes>
+    <notes>Column    4: TEST.VALUE:manager.Place_Order.MyOrder.Salad</notes>
+    <notes>Column    5: TEST.VALUE:manager.Place_Order.MyOrder.Entree</notes>
+    <notes>Column    6: TEST.VALUE:manager.Place_Order.MyOrder.Beverage</notes>
+    <notes>Column    7: TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Is_Occupied</notes>
+    <notes>Column    8: TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Number_In_Party</notes>
+    <notes>Column    9: TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Order[1].Entree</notes>
+    <notes>Column   10: TEST.EXPECTED:uut_prototype_stubs.Update_Table_Record.Data.Check_Total</notes>
+  </notes>
+  <tolerance>0.000000</tolerance>
+  <timeout>-1</timeout>
+  <parameter_attributes/>
+</testcase>

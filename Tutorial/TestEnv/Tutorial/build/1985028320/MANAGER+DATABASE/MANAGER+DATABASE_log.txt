@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\1985028320\MANAGER+DATABASE\MANAGER+DATABASE_auto.tst
+(I) @LINE: 14
+    >>> Processing Test Case: BASIS-PATH-001
+(S) @LINE: 20
+    >>> Processed Test Case: BASIS-PATH-001
+(S) @LINE: 21
+    >>> Script processing completed
+
+

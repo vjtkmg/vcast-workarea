@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="7">
+  <unit index="9" coverage_type="STATEMENT_MCDC" max_mcdc_conditions="8" field_width="8">
+    <name>database</name>
+    <configuration>
+      <empty_statements_coverable>1</empty_statements_coverable>
+      <cover_catch_as_branch>1</cover_catch_as_branch>
+      <cover_logical_operators_in_parameters>1</cover_logical_operators_in_parameters>
+      <handle_ternary_operator>1</handle_ternary_operator>
+      <cover_nested_conditional>1</cover_nested_conditional>
+      <coverage_for_included_c_files>1</coverage_for_included_c_files>
+      <coverage_for_headers>0</coverage_for_headers>
+      <instrument_by_block>0</instrument_by_block>
+      <coverage_for_declarations>1</coverage_for_declarations>
+      <basis_paths_for_constant_branches>1</basis_paths_for_constant_branches>
+      <edg_coverage_available>1</edg_coverage_available>
+      <cover_included_c_files>1</cover_included_c_files>
+      <cover_headers>0</cover_headers>
+      <preprocessed>1</preprocessed>
+      <masking_mcdc>0</masking_mcdc>
+      <cuda_mode>0</cuda_mode>
+      <coverage_for_lambdas>2</coverage_for_lambdas>
+      <pack_instr_storage>1</pack_instr_storage>
+      <global_buffer_opts>0</global_buffer_opts>
+      <coverage_unit_registration>0</coverage_unit_registration>
+    </configuration>
+    <attributes>
+      <has_empty_statements>0</has_empty_statements>
+      <has_catch_statements>0</has_catch_statements>
+      <has_logical_operators_in_parameters>0</has_logical_operators_in_parameters>
+      <has_ternary_operator>0</has_ternary_operator>
+      <has_nested_ternary_operator>0</has_nested_ternary_operator>
+      <has_constant_branch>0</has_constant_branch>
+      <number_ascii_bytes>68</number_ascii_bytes>
+      <probe_point_after_last_include>48</probe_point_after_last_include>
+      <probe_point_beginning_of_file>8</probe_point_beginning_of_file>
+      <file_timestamp>1600173920</file_timestamp>
+      <file_checksum>2106310038</file_checksum>
+      <translation_unit_checksum>2981526764</translation_unit_checksum>
+    </attributes>
+    <source_files>
+      <source_file index="1" path="c:/users/vjtkmg/documents/gitlocal/vectorcast/tutorial/sourcecode/c/database.c" crc_checksum="2106310038" sha_checksum="4652b24338c074a0808bae47503ad791a955c2bb" timestamp="1600173920" lis_file_path="C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\1985028320\MANAGER+DATABASE\B0000009.LIS"/>
+    </source_files>
+    <subprogram index="1">
+      <name>Get_Table_Record</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Get_Table_Record(table_index_type)struct table_data_type</parameterized>
+      <mangled>Get_Table_Record</mangled>
+      <source_function_checksum>98724752</source_function_checksum>
+      <translation_unit_function_checksum>98724752</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="1" stmt_id="0" startline="6" startcol="1" endline="6" endcol="1" tustartline="52" tustartcol="1" tuendline="52" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="1" stmt_id="2" startline="7" startcol="3" endline="7" endcol="29" tustartline="53" tustartcol="3" tuendline="53" tuendcol="29" allowed_position="0"/>
+      </lines>
+      <startline>52</startline>
+      <startcol>1</startcol>
+      <endline>54</endline>
+      <endcol>1</endcol>
+      <orig_startline>6</orig_startline>
+      <orig_endline>8</orig_endline>
+      <firstexec_startline>53</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>7</firstexec_orig_startline>
+      <open_brace_tu_line>52</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>6</open_brace_src_line>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="2">
+      <name>Update_Table_Record</name>
+      <source_file_index>1</source_file_index>
+      <parameterized>Update_Table_Record(table_index_type,table_data_type)</parameterized>
+      <mangled>Update_Table_Record</mangled>
+      <source_function_checksum>1256433892</source_function_checksum>
+      <translation_unit_function_checksum>1256433892</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="2" stmt_id="0" startline="11" startcol="1" endline="11" endcol="1" tustartline="57" tustartcol="1" tuendline="57" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="2" stmt_id="2" startline="12" startcol="3" endline="12" endcol="27" tustartline="58" tustartcol="3" tuendline="58" tuendcol="27" allowed_position="2"/>
+      </lines>
+      <startline>57</startline>
+      <startcol>1</startcol>
+      <endline>59</endline>
+      <endcol>1</endcol>
+      <orig_startline>11</orig_startline>
+      <orig_endline>13</orig_endline>
+      <firstexec_startline>58</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>12</firstexec_orig_startline>
+      <open_brace_tu_line>57</open_brace_tu_line>
+      <open_brace_tu_col>1</open_brace_tu_col>
+      <open_brace_src_line>11</open_brace_src_line>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

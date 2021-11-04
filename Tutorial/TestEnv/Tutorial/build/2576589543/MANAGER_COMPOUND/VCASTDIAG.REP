@@ -1,0 +1,313 @@
+
+###################################
+############# MISC ################
+###################################
+Tool version: 21.sp3 (08/04/21)
+Current directory: c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\MANAGER_COMPOUND
+Current directory is writable.
+
+--------------------------------------------------------------------------------
+環境概要
+--------------------------------------------------------------------------------
+  環境名:                 MANAGER_COMPOUND
+  環境のステータス:            ノーマル
+  環境のバージョン:            REVISION_2021_ANON_STRUCT_CTOR_SUPPORT
+  環境ビルド種別:             フル
+  カバレッジステータス:          Statement+MC/DC (有効)
+  言語:                  C
+  コンパイラ名:              VectorCAST MinGW_C
+  ホワイトボックス:            はい
+  検索リスト:               C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\SourceCode\c  (テスト可能)
+  テスト対象ユニット:           database
+                       manager
+  スタブリスト:              なし
+  スタブなし（ソースファイル）:      なし
+###################################
+
+###################################
+### COMPILER/PREPROCESSOR/LINKER ##
+###################################
+Found preprocessor C:\VCAST\vcast.win64.2021sp3\MinGW\bin\gcc.exe
+Found compiler C:\VCAST\vcast.win64.2021sp3\MinGW\bin\gcc.exe
+###################################
+
+
+
+###################################
+############ ENV. VARS ############
+###################################
+-GHS_LMHOST=@alder.vectors.com
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\vjtkmg\AppData\Roaming
+CANoe_InstallDir=C:\Program Files\Vector CANoe 12.0\Exec64\
+CANoe_InstallDir64=C:\Program Files\Vector CANoe 12.0\Exec64\
+ChocolateyInstall=C:\ProgramData\chocolatey
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=JP02139NB
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+GHS_LMHOST=@vapvdls1.vi.vector.int
+HLNK_LIBRARY1=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\lib\sh3dspnb.lib
+HOMEDRIVE=C:
+HOMEPATH=\Users\vjtkmg
+HTC_DEVELOPMENT=C:\HighTec
+HTC_LICENSES=C:\HighTec\licenses
+IAR_INSTALL_DIR=C:\PROGRA~2\IARSYS~1\EMBEDD~1.4
+IAR_INSTALL_DIR_ARM=C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm\bin
+IAR_INSTALL_DIR_CMN=C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\common\bin
+JAVA_HOME=C:\Program Files\Java\jdk-11.0.11
+LM_APP_DISABLE_CACHE_READ=1
+LOCALAPPDATA=C:\Users\vjtkmg\AppData\Local
+LOGONSERVER=\\VJTYODC5
+NcpClntDataPath=C:\ProgramData\NCP\SecureClient
+NcpClntInstallPath=C:\Program Files\NCP\SecureClient
+NLS_LANG=Japanese_Japan.JA16SJIS
+NUMBER_OF_PROCESSORS=12
+OneDrive=C:\Users\vjtkmg\OneDrive - Vector Informatik GmbH
+OneDriveCommercial=C:\Users\vjtkmg\OneDrive - Vector Informatik GmbH
+OS=Windows_NT
+PATH=C:\VCAST\vcast.win64.2021sp3\MinGW\bin;C:\VCAST\vcast.win64.2021sp3\MinGW\bin;C:\ti\ccs1031\ccs\tools\compiler\ti-cgt-c2000_18.12.4.LTS\bin;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44/bin;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44/gcc/arm-none-eabi/bin;C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\bin;C:\ghs;C:\ghs\comp_201517;C:\ghs\multi_616;C:\PROGRA~2\FREESC~1\CWS12v5.1\Prog;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm\bin;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\common\bin;;C:\Program Files (x86)\Renesas Electronics\CS+\CACX;C:\Program Files (x86)\Renesas Electronics\CS+\CACX\CA850\V3.50\Bin;C:\Program Files (x86)\Renesas Electronics\CS+;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=a502
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\NWC Services\PSX7\Modules
+PUBLIC=C:\Users\Public
+RENESAS_BASE=C:\Program Files (x86)\Renesas Electronics\CS+\CACX
+RENESAS_LINKER=C:\Program Files (x86)\Renesas Electronics\CS+\CACX\CA850\V3.50\Bin
+RLM_LICENSE=vistrlic5@7591
+SESSIONNAME=Console
+SHC_INC=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\include
+SHC_LIB=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\bin
+SHC_TMP=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\Ctemp
+SVN_SSH=a3701311b84bd278347b5b1bb69f1606_ssh -q --
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\vjtkmg\AppData\Local\Temp
+TMP=C:\Users\vjtkmg\AppData\Local\Temp
+TSIM_CONFIG_DIR=C:\HighTec\tsim\1.17.11\config
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=VI.VECTOR.INT
+USERDOMAIN=VECTOR
+USERDOMAIN_ROAMINGPROFILE=VECTOR
+USERNAME=vjtkmg
+USERPROFILE=C:\Users\vjtkmg
+VCAST_CCS_INSTALL_DIR=C:\ti\ccs1031\ccs
+VCAST_CW_INSTALL_DIR=C:\PROGRA~2\FREESC~1\CWS12v5.1
+VCAST_IAR_INSTALL_DIR=C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm
+VCAST_KEIL_ARM_INSTALL_DIR=C:\Keil_v531\ARM
+VCAST_KEIL_CMSIS_PATH=C:\Users\vjtkmg\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial
+VCAST_PATH_TO_RENESAS_CS=C:\Program Files (x86)\Renesas Electronics\CS+
+VCAST_PLEXTALK=C:\Program Files (x86)\Windows CE Tools\SDKs\PLEXTALK_WEC7_2016
+VCAST_PROG_STARTED_FROM_GUI=true
+VCAST_RENESAS_CS_VERSION=V3.50
+VCAST_RENESAS_INSTALL_DIR=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3
+VCAST_SEGGER_DIR=C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44
+VCAST_TRACE32=C:\Users\vjtkmg\Documents\VectorCAST\Customer\Comas\simarm
+VCAST_VS90_VC=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC
+VECTORCAST_DIR=C:\VCAST\vcast.win64.2021sp3
+VECTORCAST_SUB_PROCESS_VERBOSE=TRUE
+VECTOR_LICENSE_FILE=C:\flexlm\vector-JP02139NB.lic
+VS100COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+windir=C:\WINDOWS
+Z3_LIBRARY_PATH=C:/VCAST/vcast.win64.2021sp3/python/3rd_party/z3
+VCV_ENVIRONMENT_NAME=MANAGER_COMPOUND
+VCV_ENVIRONMENT_DIR=c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\MANAGER_COMPOUND
+VCAST_QIK_ASSUME_SRC_HAS_NOT_CHANGED=true
+VCAST_OBJECT_PATH=c:\\Users\\vjtkmg\\Documents\\GitLocal\\VectorCAST\\Tutorial\\TestEnv\\Tutorial\\build\\2576589543\\MANAGER_COMPOUND
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o  I0000011.o   I0000009.o
+
+###################################
+
+
+###################################
+######## MISSING BINARIES #########
+###################################
+none
+###################################
+
+
+###################################
+########## CONFIG FILES ###########
+###################################
+CCAST Options read from file:
+(exists) c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\CCAST_.CFG (current dir)
+Contents of c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\CCAST_.CFG:
+  ASM_FUNCS_BEHAVE_AS_INLINES: FALSE
+  ASSEMBLER_CMD: 
+  AUTO_INCLUDE: 
+  COMREADER_ENABLED: FALSE
+  C_ALT_COMPILE_CMD: 
+  C_ALT_EDG_FLAGS: 
+  C_ALT_PREPROCESS_CMD: 
+  C_COMPILER_CFG_SOURCE: BUILT_IN_TAG
+  C_COMPILER_FAMILY_NAME: 
+  C_COMPILER_HIERARCHY_STRING: VectorCAST MinGW_C
+  C_COMPILER_OUTPUT_FLAG: -o
+  C_COMPILER_PY_ARGS: 
+  C_COMPILER_TAG: BUILTIN_MINGW_63_C
+  C_COMPILER_VERSION_CMD: gcc --version
+  C_COMPILE_CMD: gcc -c -g
+  C_COMPILE_CMD_FLAG: -c
+  C_COMPILE_EXCLUDE_FLAGS: -o**
+  C_DEBUG_CMD: gdb
+  C_DEBUG_HELP_FILE: 
+  C_DEFINE_FLAG: -D
+  C_DEFINE_LIST: 
+  C_EDG_FLAGS: -w --gcc --gnu_version 60300 --mingw
+  C_EXECUTE_CMD: 
+  C_EXEC_HELP_FILE: 
+  C_INCLUDE_FLAG: -I
+  C_LINKER_VERSION_CMD: ld --version
+  C_LINK_CMD: gcc -g
+  C_LINK_OPTIONS: 
+  C_OBJECT_EXT: .o
+  C_OUTPUT_FLAG: -o
+  C_PREPROCESS_CMD: gcc -E -C
+  C_PREPROCESS_FILE: 
+  EXECUTABLE_EXTENSION: 
+  MAX_VARY_RANGE: 20
+  PRECOMPILE_CMD: 
+  PRECOMPILE_EXT: 
+  SBF_LOC_MEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_MEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SOURCE_EXTENSION: .c
+  SUBSTITUTE_CODE_FOR_C_FILE: FALSE
+  VCAST_ALT_WB_METHOD: FALSE
+  VCAST_ASSEMBLY_FILE_EXTENSIONS: s
+  VCAST_ASSIGN_WITHOUT_COPY_CTOR: TRUE
+  VCAST_AUTO_CLEAR_TEST_USER_CODE: FALSE
+  VCAST_AVOID_COMMA_OPERATOR: FALSE
+  VCAST_BUFFER_OUTPUT: FALSE
+  VCAST_COLLAPSE_STD_HEADERS: COLLAPSE_SYSTEM_HEADERS
+  VCAST_COMMAND_LINE_DEBUGGER: TRUE
+  VCAST_COMPILER_SUPPORTS_CPP_CASTS: FALSE
+  VCAST_COVERAGE_FOR_AGGREGATE_INIT: TRUE
+  VCAST_CYGPATH_LINE_DIRECTIVES: FALSE
+  VCAST_C_FILE_EXTENSIONS: c
+  VCAST_DISABLE_CPP_EXCEPTIONS: FALSE
+  VCAST_DISABLE_STD_STRING_DETECTION: FALSE
+  VCAST_DISABLE_STD_WSTRING_DETECTION: TRUE
+  VCAST_DISABLE_TI_BITFIELD: FALSE
+  VCAST_DISABLE_TI_STRING: FALSE
+  VCAST_DISPLAY_UNINST_EXPR: FALSE
+  VCAST_DUMP_BUFFER: FALSE
+  VCAST_ENVIRONMENT_FILES: 
+  VCAST_ESCAPE_LINE_DIRECTIVES: FALSE
+  VCAST_EXECUTE_WITH_STDIO: FALSE
+  VCAST_EXECUTE_WITH_STDOUT: FALSE
+  VCAST_FAR_STDIN_DATA: FALSE
+  VCAST_FILE_INDEX: FALSE
+  VCAST_FILE_PREFIX: 
+  VCAST_FORCE_ELAB_TYPE_SPEC: TRUE
+  VCAST_FORCE_NO_USERGLOBALS: FALSE
+  VCAST_GH_INTEX_CMD: 
+  VCAST_GH_INT_FILE: 
+  VCAST_HAS_LONGLONG: TRUE
+  VCAST_INST_FILE_MAX_LINES: 0
+  VCAST_MAIN: FALSE
+  VCAST_MAX_COVERED_SUBPROGRAMS: 1000
+  VCAST_MAX_HEAP_SIZE: 1000
+  VCAST_MAX_MCDC_STATEMENTS: 1000
+  VCAST_MAX_STRING_LENGTH: 1000
+  VCAST_MICROSOFT_LONG_LONG: FALSE
+  VCAST_MINIMAL_TERMINATION: FALSE
+  VCAST_NO_EXIT: FALSE
+  VCAST_NO_FFLUSH: FALSE
+  VCAST_NO_FLOAT: FALSE
+  VCAST_NO_LIMITS: FALSE
+  VCAST_NO_LONG_DOUBLE: TRUE
+  VCAST_NO_MALLOC: FALSE
+  VCAST_NO_SETJMP: FALSE
+  VCAST_NO_SIGNAL: FALSE
+  VCAST_NO_STDIN: FALSE
+  VCAST_NO_STDLIB: FALSE
+  VCAST_NO_STD_FILES: FALSE
+  VCAST_OUTPUT_BUFFER_SIZE: 20000
+  VCAST_PREPEND_TO_PATH_DIRS: $(VECTORCAST_DIR)/MinGW/bin
+  VCAST_PREPROCESS_PREINCLUDE: 
+  VCAST_REMOVE_PREPROCESSOR_COMMENTS: TRUE
+  VCAST_STDIO: FALSE
+  VCAST_TEST_VALUES_DICTIONARY: 
+  VCAST_TYPEOF_OPERATOR: TRUE
+  VCAST_USE_COMPOUND_FOR_BATCH: FALSE
+  VCAST_USE_EDG_PREPROCESSOR: FALSE
+  VCAST_USE_STATIC_MEMORY: FALSE
+  VCAST_USE_STD_STRING: TRUE
+  VCAST_USE_VCPP: FALSE
+  VCAST_VCDB_FLAG_STRING: -isystem=1
+  VCAST_VXWORKS: FALSE
+  WHITEBOX: YES
+
+ADACAST Options read from file:
+( none ) c:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\ADACAST_.CFG (current dir)
+
+###################################
+
+
+###################################
+######## ENV. VAR. CONFIG #########
+###################################
+These config options are being set by environment vars:
+none
+
+These env. vars contain VCAST and could be affecting behavior:
+PATH=C:\VCAST\vcast.win64.2021sp3\MinGW\bin;C:\VCAST\vcast.win64.2021sp3\MinGW\bin;C:\ti\ccs1031\ccs\tools\compiler\ti-cgt-c2000_18.12.4.LTS\bin;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44/bin;C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44/gcc/arm-none-eabi/bin;C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3\bin;C:\ghs;C:\ghs\comp_201517;C:\ghs\multi_616;C:\PROGRA~2\FREESC~1\CWS12v5.1\Prog;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm\bin;C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\common\bin;;C:\Program Files (x86)\Renesas Electronics\CS+\CACX;C:\Program Files (x86)\Renesas Electronics\CS+\CACX\CA850\V3.50\Bin;C:\Program Files (x86)\Renesas Electronics\CS+;
+VCAST_CCS_INSTALL_DIR=C:\ti\ccs1031\ccs
+VCAST_CW_INSTALL_DIR=C:\PROGRA~2\FREESC~1\CWS12v5.1
+VCAST_IAR_INSTALL_DIR=C:\PROGRA~2\IARSYS~1\EMBEDD~1.4\arm
+VCAST_KEIL_ARM_INSTALL_DIR=C:\Keil_v531\ARM
+VCAST_KEIL_CMSIS_PATH=C:\Users\vjtkmg\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial
+VCAST_PATH_TO_RENESAS_CS=C:\Program Files (x86)\Renesas Electronics\CS+
+VCAST_PLEXTALK=C:\Program Files (x86)\Windows CE Tools\SDKs\PLEXTALK_WEC7_2016
+VCAST_PROG_STARTED_FROM_GUI=true
+VCAST_RENESAS_CS_VERSION=V3.50
+VCAST_RENESAS_INSTALL_DIR=C:\Progra~2\Renesas\Hew\Tools\Renesas\Sh\9_4_3
+VCAST_SEGGER_DIR=C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.44
+VCAST_TRACE32=C:\Users\vjtkmg\Documents\VectorCAST\Customer\Comas\simarm
+VCAST_VS90_VC=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC
+VECTORCAST_DIR=C:\VCAST\vcast.win64.2021sp3
+Z3_LIBRARY_PATH=C:/VCAST/vcast.win64.2021sp3/python/3rd_party/z3
+VCAST_QIK_ASSUME_SRC_HAS_NOT_CHANGED=true
+VCAST_OBJECT_PATH=c:\\Users\\vjtkmg\\Documents\\GitLocal\\VectorCAST\\Tutorial\\TestEnv\\Tutorial\\build\\2576589543\\MANAGER_COMPOUND
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o  I0000011.o   I0000009.o
+
+###################################
+
+###################################
+####### ENVIRONMENT SCRIPT ########
+###################################
+Contents of C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\TestEnv\Tutorial\build\2576589543\MANAGER_COMPOUND.env:
+  ENVIRO.NEW
+  ENVIRO.NAME: MANAGER_COMPOUND
+  ENVIRO.STUB_BY_FUNCTION: database
+  ENVIRO.STUB_BY_FUNCTION: manager
+  ENVIRO.WHITE_BOX: YES
+  ENVIRO.VCDB_FILENAME: 
+  ENVIRO.COVERAGE_TYPE: Statement+MCDC
+  ENVIRO.LIBRARY_STUBS:  
+  ENVIRO.STUB: ALL_BY_PROTOTYPE
+  ENVIRO.COMPILER: CC
+  ENVIRO.TYPE_HANDLED_DIRS_ALLOWED: 
+  ENVIRO.SEARCH_LIST: C:\Users\vjtkmg\Documents\GitLocal\VectorCAST\Tutorial\SourceCode\c
+  ENVIRO.END
+
+###################################
+
+

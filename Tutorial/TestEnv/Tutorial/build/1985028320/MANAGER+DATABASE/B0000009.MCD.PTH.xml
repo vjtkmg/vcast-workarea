@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="TRUE" edg="Y" checksum="2981526764" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Get_Table_Record" parameterized="Get_Table_Record(table_index_type)struct table_data_type" canonical="" mangled="Get_Table_Record" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="0">
+    <listing_start>3</listing_start>
+    <listing_end>7</listing_end>
+  </subprogram>
+  <subprogram index="2" name="Update_Table_Record" parameterized="Update_Table_Record(table_index_type,table_data_type)" canonical="" mangled="Update_Table_Record" is_virtual_function="0" class_member="FALSE" testable="TRUE" complexity="0">
+    <listing_start>8</listing_start>
+    <listing_end>12</listing_end>
+  </subprogram>
+</basis_paths>

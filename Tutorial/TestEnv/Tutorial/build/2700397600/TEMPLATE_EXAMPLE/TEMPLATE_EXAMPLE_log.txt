@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:/Users/vjtkmg/Documents/GitLocal/VectorCAST/Tutorial/TestEnv/Tutorial/build/2700397600/TEMPLATE_EXAMPLE/CSV2TST.tst
+(I) @LINE: 18
+    >>> Processing Test Case: CSV_Steak
+(S) @LINE: 50
+    >>> Processed Test Case: CSV_Steak
+(I) @LINE: 57
+    >>> Processing Test Case: CSV_Chicken
+(S) @LINE: 89
+    >>> Processed Test Case: CSV_Chicken
+(I) @LINE: 96
+    >>> Processing Test Case: CSV_Lobster
+(S) @LINE: 128
+    >>> Processed Test Case: CSV_Lobster
+(S) @LINE: 129
+    >>> Script processing completed
+
+

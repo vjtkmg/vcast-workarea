@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="1157096755" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Add_Included_Dessert" parameterized="Add_Included_Dessert(struct order_type*)" canonical="" mangled="Add_Included_Dessert" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>10</listing_start>
+    <listing_end>26</listing_end>
+  </subprogram>
+  <subprogram index="2" name="Place_Order" parameterized="Place_Order(table_index_type,seat_index_type,order_type)int" canonical="" mangled="Place_Order" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>26</listing_start>
+    <listing_end>58</listing_end>
+  </subprogram>
+  <subprogram index="3" name="Clear_Table" parameterized="Clear_Table(table_index_type)int" canonical="" mangled="Clear_Table" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>58</listing_start>
+    <listing_end>78</listing_end>
+  </subprogram>
+  <subprogram index="4" name="Get_Check_Total" parameterized="Get_Check_Total(table_index_type)FLOAT" canonical="" mangled="Get_Check_Total" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>78</listing_start>
+    <listing_end>85</listing_end>
+  </subprogram>
+  <subprogram index="5" name="Add_Party_To_Waiting_List" parameterized="Add_Party_To_Waiting_List(char*)" canonical="" mangled="Add_Party_To_Waiting_List" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>85</listing_start>
+    <listing_end>100</listing_end>
+  </subprogram>
+  <subprogram index="6" name="Get_Next_Party_To_Be_Seated" parameterized="Get_Next_Party_To_Be_Seated()char*" canonical="" mangled="Get_Next_Party_To_Be_Seated" is_virtual_function="0" class_member="FALSE" testable="TRUE">
+    <listing_start>100</listing_start>
+    <listing_end>108</listing_end>
+  </subprogram>
+</basis_paths>
